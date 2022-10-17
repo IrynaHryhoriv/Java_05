@@ -1,12 +1,9 @@
 public class FizzBuzz {
-
     public String[] fizzBuzz(int start, int end){
-
         if (start <= end){
             String[] array = new String[end - start + 1];
 
             int number = start;
-
             for(int i = 0; i < array.length && number <= end; i++){
                 if (number % 15 == 0){
                     array[i] = "FizzBuzz";
